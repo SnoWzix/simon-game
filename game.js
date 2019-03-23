@@ -15,7 +15,8 @@ $(document).keypress(function() {
   }
 });
 
-// Button sound and animation trigger
+
+// Button sound and animationtrigger
 
 $(".btn").click(function() {
 
@@ -64,6 +65,7 @@ function nextSequence() {
 }
 
 // Game Over
+
 function startOver() {
   level = 0;
   gamePattern = [];
